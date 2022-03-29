@@ -45,3 +45,26 @@ form button:hover{
     background: #d88771;
     color: white;
 }
+
+.todo-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.todo-list{ 
+    min-width:  79%;
+    list-style: none;
+}
+
+/* .todo{
+     margin: .5rem;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-radius: 100px; */
+}  */
