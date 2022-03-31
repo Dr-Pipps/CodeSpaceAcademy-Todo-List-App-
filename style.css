@@ -26,19 +26,24 @@ header,form{
 
 
 
+
 form input, form button {
-    padding: .25rem;
-    font-size: 2rem;
+    padding: .7rem 2.4rem;
+    font-size: 1.2rem;
     border: none;
     background: white;
+   
+    
 }
 
 
 form button{
-    color:  #000000;
-    background: white;
+    color: white;
+    background:black;
     cursor: pointer;
     transition: all .3 sec ease;
+
+    
 }
 
 form button:hover{
@@ -54,17 +59,44 @@ form button:hover{
 
 }
 .todo-list{ 
-    min-width:  79%;
+    min-width:  77%;
     list-style: none;
 }
 
-/* .todo{
-     margin: .5rem;
-    background-color: white;
+.todo{
+    margin: 0.5rem;
+    background: white;
     color: black;
-    font-size: 1rem;
-    display:flex;
+    font-size: 1.2rem;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border-radius: 100px; */
-}  */
+    transition: all .5s ease;
+
+} 
+
+.todo li{
+    flex: 1;
+
+}
+.delete-btn, .check-btn{
+    background: black;
+    color: white;
+    padding: .9rem;
+    border: none;
+    
+    font-size: 1rem;
+
+}
+.task{
+    padding: 0rem .7rem;
+}
+
+.fa-trash, .fa-check{
+    pointer-events: none;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: .5;
+    
